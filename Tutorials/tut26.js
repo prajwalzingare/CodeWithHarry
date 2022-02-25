@@ -1,0 +1,2 @@
+//This tutorial contains the solution to Exercise 3 i.e. Improving the Magic Notes Website. The problem statement along with the instructions is given below:
+console.log('This tutorial contains the solution to Exercise 3 i.e. Improving the Magic Notes Website. The problem statement along with the instructions is given below:')
