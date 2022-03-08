@@ -45,3 +45,4 @@ let result4 = s.search(reg); //this is right
 //5. replace()--This method will executes a search for a match in a string, and replaces the matched substring with a replacement substring.
 let result5 = s.replace(reg, "sami"); //now this will only replace first word of regular expression with given one But⚠⚠ if you put global tag then this will going to replace all words with given words in string.
 // console.log(result5);
+//❤❤()it means the group basicly and []it contains the word and the word of which type.
