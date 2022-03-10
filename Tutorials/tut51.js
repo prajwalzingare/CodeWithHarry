@@ -33,4 +33,4 @@ console.log(fruits.next().value);
 
 //if we want to iterate thruough any lopp we use many method like
 //while(),do..while(),for(),for..of(),for..in(),foreach(),map() and recently new method get add and that method is Itearators
-//Iterators can be use with string and with object
+//Iterators can be use with string and with object.
