@@ -1,9 +1,10 @@
 console.log("this tut is on the topic of Iterators in javascript");
 //Link to know more-https://www.codewithharry.com/videos/javascript-tutorials-in-hindi-51/
-//
+//https://www.youtube.com/watch?v=2oU-DfdWM0c
 //Iterators-it means repetation
 function fruitsIterator(values) {
   let nextIndex = 0;
+  //we will return object.
   return {
     next: function () {
       if (nextIndex < values.length) {
@@ -22,10 +23,10 @@ function fruitsIterator(values) {
 }
 
 const myArray = ["Apples", "Grapes", "Bhindi", "chikoo"];
-console.log("My array is " + myArray);
+// console.log("My array is " + myArray);
 //using the Iterator
 const fruits = fruitsIterator(myArray);
-console.log(fruits.next().value);
+console.log(fruits.next());
 console.log(fruits.next().value);
 console.log(fruits.next().value);
 console.log(fruits.next().value);

@@ -14,7 +14,7 @@ function* numbergen() {
   // yield 3;
   // yield 4;
   while (true) {
-    yield (i++).toString(); //to string is used to convert any value to string.
+    yield i++; //.toString(); //to string is used to convert any value to string.
   }
 }
 const gen = numbergen();
