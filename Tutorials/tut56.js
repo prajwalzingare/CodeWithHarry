@@ -1,5 +1,5 @@
 //Link to visit for more info-https://stackoverflow.com/questions/29285897/what-is-the-difference-between-for-in-and-for-of-statements#:~:text=Both%20for..in%20and%20for,values%20of%20an%20iterable%20object.
-
+//Property accessors to acces the property important.
 console.log("this is tut 56 on the topic of for of loop and for in loop");
 people = ["prajwal", "sami", "sourabh", "kunal"];
 // console.log(people);
