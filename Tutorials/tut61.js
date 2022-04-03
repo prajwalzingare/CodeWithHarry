@@ -1,6 +1,8 @@
 console.log("Javascript Wall clock");
 //We have to create wall clock
-
+// link for more -https://flexiple.com/javascript-clock/
+//
+//
 //We create the function for time
 function currentTime(params) {
   //Now we acess the date by new date
@@ -27,7 +29,7 @@ function currentTime(params) {
   document.getElementById("time").innerHTML = time;
 
   setTimeout(() => {
-    // console.log("prajwal");
+    console.log("prajwal");
     currentTime();
   }, 1000);
 }
