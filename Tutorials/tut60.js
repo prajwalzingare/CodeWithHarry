@@ -1,5 +1,4 @@
 console.log("this is tutorial on destructuring");
-// link for more -https://flexiple.com/javascript-clock/
 //Destructuring in array
 let a, b;
 [a, b] = [34, 56];
